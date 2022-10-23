@@ -11,14 +11,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>(ТӨРСӨН ӨДРИЙН МЭНД)</title>
+    <title>(ТӨРСӨН ӨДРИЙН МЭНД)  <?php echo $name; ?></title>
     <meta property="og:url"                content="<?php echo $actual_link; ?>" />
     <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="(ТӨРСӨН ӨДРИЙН МЭНД)" />
-    <meta property="og:description"        content="(ТӨРСӨН ӨДРИЙН МЭНД)" />
-    <meta property="og:image"              content="<?php echo $actual_link; ?>/banner.png" />
+    <meta property="og:title"              content="(ТӨРСӨН ӨДРИЙН МЭНД)  <?php echo $name; ?>" />
+    <meta property="og:description"        content="(ТӨРСӨН ӨДРИЙН МЭНД)  <?php echo $name; ?>" />
+    <meta property="og:image"              content="https://php.togtokh.dev/happy_birthday/banner.png" />
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="<?php echo $actual_link; ?>/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
   </head>
   <body>
     <div class="card">
